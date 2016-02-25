@@ -1,0 +1,34 @@
+{
+    "name": "Qordoba/Qordoba",
+    "type": "library",
+    "description": "TODO: add library description",
+    "keywords": ["spec.json","API","SDK"],
+    "homepage": "https://qordoba.com",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Qordoba",
+            "email": "hello@qordoba.com",
+            "homepage": "https://github.com/Qordobacode",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Qordobacode/api-sdk-php"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "Qordoba/unirest-php": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "QordobaLib\\": "src/"
+        }
+    }
+}
